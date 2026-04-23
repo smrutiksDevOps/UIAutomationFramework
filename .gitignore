@@ -1,0 +1,73 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+reports/
+test-output/
+allure-results/
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Python (if using Selenium with Python)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+pytest_cache/
+
+# Java (if using Selenium with Java)
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+out/
+
+# Node.js (if using Selenium with JS)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# WebDriver binaries (optional – if you don’t want to track them)
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+msedgedriver
+msedgedriver.exe
+
+# Test artifacts
+screenshots/
+videos/
+downloads/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
